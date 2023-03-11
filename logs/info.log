@@ -1,0 +1,5 @@
+ ERROR:root:BotBase.__init__() missing 1 required keyword-only argument: 'intents'
+Traceback (most recent call last):
+  File "C:\Users\Nodisponible2\Desktop\proyectos\ghost\Ghost.py", line 1026, in <module>
+    Ghost = commands.Bot(command_prefix=__prefix__, self_bot=True, status=discord.Status.try_value(status))
+TypeError: BotBase.__init__() missing 1 required keyword-only argument: 'intents'
